@@ -51,6 +51,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\RobotController.cs" />
+     <Compile Include="Assets\ButtonController.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/nikitaba/playtikaunityacademy/AnimatorTest/AnimatorTest/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

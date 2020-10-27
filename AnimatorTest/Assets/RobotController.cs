@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
 public class RobotController : MonoBehaviour
@@ -27,7 +23,7 @@ public class RobotController : MonoBehaviour
             animator.SetTrigger(JUMPING_STR);
         }
 
-        var horizontalInput = CrossPlatformInputManager.GetAxis("Horizontal");
+        var horizontalInput = Input.GetAxis("Horizontal");
         
         if (horizontalInput != 0)
         {
